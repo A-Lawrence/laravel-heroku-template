@@ -41,7 +41,7 @@ class HerokuPostDeploy extends Command
         try {
             DB::connection()->getDatabaseName();
             return true;
-        } catch (PDOException $exception) {
+        } catch (\Exception $exception) {
             return false;
         }
     }
