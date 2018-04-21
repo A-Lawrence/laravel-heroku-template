@@ -1,7 +1,6 @@
 .idea/*
 vendor/
 node_modules/
-npm-debug.log
 
 # Laravel 4 specific
 bootstrap/compiled.php
@@ -16,6 +15,10 @@ storage/*.key
 .env
 Homestead.yaml
 Homestead.json
+/.vagrant
+
+# Log Files
+*.log
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
