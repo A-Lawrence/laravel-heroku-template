@@ -3,6 +3,8 @@
 namespace App\Console\Deployment;
 
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\DB;
+use PDOException;
 
 class HerokuPostDeploy extends Command
 {
@@ -17,6 +19,10 @@ class HerokuPostDeploy extends Command
 
     public function runMigrationsFor($environment)
     {
+        if (!$this->checkDatabaseConnection()) {
+            return false;
+        }
+
         switch ($environment) {
             case "production":
                 $this->call('migrate', ['--force' => true]);
@@ -30,9 +36,19 @@ class HerokuPostDeploy extends Command
         }
     }
 
+    private function checkDatabaseConnection()
+    {
+        try {
+            DB::connection()->getDatabaseName();
+            return true;
+        } catch (PDOException $exception) {
+            return false;
+        }
+    }
+
     public function clearResponseCache()
     {
-        if(!class_exists("\Spatie\ResponseCache\ResponseCacheServiceProvider")){
+        if (!class_exists("\Spatie\ResponseCache\ResponseCacheServiceProvider")) {
             return false;
         }
 
