@@ -15,11 +15,9 @@
     "spatie/laravel-responsecache": "^4.2"
   },
   "require-dev": {
-    "barryvdh/laravel-ide-helper": "^2.4",
-    "codedungeon/phpunit-result-printer": "^0.14.0",
+    "alawrence/laravel-dev-tools" : "dev-master",
     "filp/whoops": "~2.0",
     "fzaninotto/faker": "~1.4",
-    "laracasts/generators": "^1.1",
     "laravel/dusk": "^3.0",
     "laravel/homestead": "^7.2",
     "mockery/mockery": "0.9.*",
@@ -33,7 +31,10 @@
     ],
     "psr-4": {
       "App\\": "app/"
-    }
+    },
+    "files": [
+      "app/helpers.php"
+    ]
   },
   "autoload-dev": {
     "psr-4": {
@@ -56,6 +57,11 @@
     "post-autoload-dump": [
       "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
       "@php artisan package:discover"
+    ],
+    "post-update-cmd": [
+      "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+      "php artisan ide-helper:generate",
+      "php artisan ide-helper:meta"
     ]
   },
   "config": {
