@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "477c4880a10ab11b7388fd79db0b9022",
@@ -2356,12 +2356,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/A-Lawrence/laravel-developer-tools.git",
-                "reference": "d6dd5ff033eb84577917cfa69091f361cd6db7dd"
+                "reference": "1ddd2b70afa2ac073c0e468ffaf69b63f08343a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/A-Lawrence/laravel-developer-tools/zipball/d6dd5ff033eb84577917cfa69091f361cd6db7dd",
-                "reference": "d6dd5ff033eb84577917cfa69091f361cd6db7dd",
+                "url": "https://api.github.com/repos/A-Lawrence/laravel-developer-tools/zipball/1ddd2b70afa2ac073c0e468ffaf69b63f08343a5",
+                "reference": "1ddd2b70afa2ac073c0e468ffaf69b63f08343a5",
                 "shasum": ""
             },
             "require": {
@@ -2369,6 +2369,9 @@
                 "tightenco/collect": "^5.6"
             },
             "require-dev": {
+                "barryvdh/laravel-ide-helper": "^2.4",
+                "codedungeon/phpunit-result-printer": "^0.17.0",
+                "laracasts/generators": "^1.1",
                 "leanphp/phpspec-code-coverage": "^4.0",
                 "phpspec/phpspec": "^4.3"
             },
@@ -2408,7 +2411,7 @@
                 "laravel",
                 "lumen"
             ],
-            "time": "2018-05-26T15:03:00+00:00"
+            "time": "2018-05-26T15:12:40+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -2526,16 +2529,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.1.14",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "c6081b8838686aa04f1e83ba7e91f78b7b2a23e6"
+                "reference": "181c4502d8f34db7aed7bfe88d4f87875b8e947a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/c6081b8838686aa04f1e83ba7e91f78b7b2a23e6",
-                "reference": "c6081b8838686aa04f1e83ba7e91f78b7b2a23e6",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/181c4502d8f34db7aed7bfe88d4f87875b8e947a",
+                "reference": "181c4502d8f34db7aed7bfe88d4f87875b8e947a",
                 "shasum": ""
             },
             "require": {
@@ -2543,9 +2546,9 @@
                 "psr/log": "^1.0.1"
             },
             "require-dev": {
-                "mockery/mockery": "0.9.*",
+                "mockery/mockery": "^0.9 || ^1.0",
                 "phpunit/phpunit": "^4.8.35 || ^5.7",
-                "symfony/var-dumper": "^2.6 || ^3.0"
+                "symfony/var-dumper": "^2.6 || ^3.0 || ^4.0"
             },
             "suggest": {
                 "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
@@ -2554,7 +2557,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0-dev"
+                    "dev-master": "2.1-dev"
                 }
             },
             "autoload": {
@@ -2583,7 +2586,7 @@
                 "throwable",
                 "whoops"
             ],
-            "time": "2017-11-23T18:22:44+00:00"
+            "time": "2018-03-03T17:56:25+00:00"
         },
         {
             "name": "fzaninotto/faker",
