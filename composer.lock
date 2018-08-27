@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "477c4880a10ab11b7388fd79db0b9022",
@@ -1391,16 +1391,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.0.11",
+            "version": "v4.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "058f120b8e06ebcd7b211de5ffae07b2db00fbdd"
+                "reference": "ca80b8ced97cf07390078b29773dc384c39eee1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/058f120b8e06ebcd7b211de5ffae07b2db00fbdd",
-                "reference": "058f120b8e06ebcd7b211de5ffae07b2db00fbdd",
+                "url": "https://api.github.com/repos/symfony/console/zipball/ca80b8ced97cf07390078b29773dc384c39eee1f",
+                "reference": "ca80b8ced97cf07390078b29773dc384c39eee1f",
                 "shasum": ""
             },
             "require": {
@@ -1428,7 +1428,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.0-dev"
+                    "dev-master": "4.1-dev"
                 }
             },
             "autoload": {
@@ -1455,7 +1455,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-05-16T09:05:32+00:00"
+            "time": "2018-07-26T11:24:31+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -1820,25 +1820,28 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.8.0",
+            "version": "v1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "7cc359f1b7b80fc25ed7796be7d96adc9b354bae"
+                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/7cc359f1b7b80fc25ed7796be7d96adc9b354bae",
-                "reference": "7cc359f1b7b80fc25ed7796be7d96adc9b354bae",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e3d826245268269cd66f8326bd8bc066687b4a19",
+                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.8-dev"
+                    "dev-master": "1.9-dev"
                 }
             },
             "autoload": {
@@ -1871,20 +1874,20 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2018-04-30T19:57:29+00:00"
+            "time": "2018-08-06T14:22:27+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.8.0",
+            "version": "v1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "3296adf6a6454a050679cde90f95350ad604b171"
+                "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/3296adf6a6454a050679cde90f95350ad604b171",
-                "reference": "3296adf6a6454a050679cde90f95350ad604b171",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/d0cd638f4634c16d8df4508e847f14e9e43168b8",
+                "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8",
                 "shasum": ""
             },
             "require": {
@@ -1896,7 +1899,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.8-dev"
+                    "dev-master": "1.9-dev"
                 }
             },
             "autoload": {
@@ -1930,7 +1933,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-04-26T10:06:28+00:00"
+            "time": "2018-08-06T14:22:27+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
@@ -1989,16 +1992,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.0.11",
+            "version": "v4.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "3621fa74d0576a6f89d63bc44fabd376711bd0b0"
+                "reference": "f01fc7a4493572f7f506c49dcb50ad01fb3a2f56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/3621fa74d0576a6f89d63bc44fabd376711bd0b0",
-                "reference": "3621fa74d0576a6f89d63bc44fabd376711bd0b0",
+                "url": "https://api.github.com/repos/symfony/process/zipball/f01fc7a4493572f7f506c49dcb50ad01fb3a2f56",
+                "reference": "f01fc7a4493572f7f506c49dcb50ad01fb3a2f56",
                 "shasum": ""
             },
             "require": {
@@ -2007,7 +2010,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.0-dev"
+                    "dev-master": "4.1-dev"
                 }
             },
             "autoload": {
@@ -2034,7 +2037,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2018-05-16T09:05:32+00:00"
+            "time": "2018-07-26T11:24:31+00:00"
         },
         {
             "name": "symfony/routing",
@@ -2356,12 +2359,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/A-Lawrence/laravel-developer-tools.git",
-                "reference": "d6dd5ff033eb84577917cfa69091f361cd6db7dd"
+                "reference": "1ddd2b70afa2ac073c0e468ffaf69b63f08343a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/A-Lawrence/laravel-developer-tools/zipball/d6dd5ff033eb84577917cfa69091f361cd6db7dd",
-                "reference": "d6dd5ff033eb84577917cfa69091f361cd6db7dd",
+                "url": "https://api.github.com/repos/A-Lawrence/laravel-developer-tools/zipball/1ddd2b70afa2ac073c0e468ffaf69b63f08343a5",
+                "reference": "1ddd2b70afa2ac073c0e468ffaf69b63f08343a5",
                 "shasum": ""
             },
             "require": {
@@ -2369,6 +2372,9 @@
                 "tightenco/collect": "^5.6"
             },
             "require-dev": {
+                "barryvdh/laravel-ide-helper": "^2.4",
+                "codedungeon/phpunit-result-printer": "^0.17.0",
+                "laracasts/generators": "^1.1",
                 "leanphp/phpspec-code-coverage": "^4.0",
                 "phpspec/phpspec": "^4.3"
             },
@@ -2408,7 +2414,7 @@
                 "laravel",
                 "lumen"
             ],
-            "time": "2018-05-26T15:03:00+00:00"
+            "time": "2018-05-26T15:12:40+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -2743,16 +2749,16 @@
         },
         {
             "name": "laravel/homestead",
-            "version": "v7.6.2",
+            "version": "v7.15.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/homestead.git",
-                "reference": "848a4f6abbb3ac64c84691867d30d5f6f765889c"
+                "reference": "068814af93aced781d33b4712f211c1c55cedfbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/848a4f6abbb3ac64c84691867d30d5f6f765889c",
-                "reference": "848a4f6abbb3ac64c84691867d30d5f6f765889c",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/068814af93aced781d33b4712f211c1c55cedfbc",
+                "reference": "068814af93aced781d33b4712f211c1c55cedfbc",
                 "shasum": ""
             },
             "require": {
@@ -2762,6 +2768,7 @@
                 "symfony/yaml": "~3.3|~4.0"
             },
             "require-dev": {
+                "phly/changelog-generator": "^2.2",
                 "phpunit/phpunit": "^5.7 || ^6.0"
             },
             "bin": [
@@ -2789,7 +2796,7 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-            "time": "2018-05-26T14:25:04+00:00"
+            "time": "2018-08-23T16:14:12+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -4230,16 +4237,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.0.11",
+            "version": "v4.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "048b1be5fb96e73ff1d065f5e7e23f84415ac907"
+                "reference": "46bc69aa91fc4ab78a96ce67873a6b0c148fd48c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/048b1be5fb96e73ff1d065f5e7e23f84415ac907",
-                "reference": "048b1be5fb96e73ff1d065f5e7e23f84415ac907",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/46bc69aa91fc4ab78a96ce67873a6b0c148fd48c",
+                "reference": "46bc69aa91fc4ab78a96ce67873a6b0c148fd48c",
                 "shasum": ""
             },
             "require": {
@@ -4258,7 +4265,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.0-dev"
+                    "dev-master": "4.1-dev"
                 }
             },
             "autoload": {
@@ -4285,7 +4292,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2018-05-07T07:12:24+00:00"
+            "time": "2018-07-26T11:24:31+00:00"
         },
         {
             "name": "theseer/tokenizer",
