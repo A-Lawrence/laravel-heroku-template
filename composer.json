@@ -20,7 +20,7 @@
     "fzaninotto/faker": "~1.4",
     "laravel/dusk": "^3.0",
     "laravel/homestead": "^7.2",
-    "mockery/mockery": "0.9.*",
+    "mockery/mockery": "1.1.*",
     "nunomaduro/collision": "^2.0",
     "phpunit/phpunit": "~7.0"
   },
