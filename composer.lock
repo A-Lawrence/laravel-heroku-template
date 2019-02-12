@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a9acd186a0c2978ad3660cce87f04906",
+    "content-hash": "013cc66cfe67c972872b46fdfeb2441f",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2841,26 +2841,26 @@
         },
         {
             "name": "laravel/homestead",
-            "version": "v7.6.2",
+            "version": "v8.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/homestead.git",
-                "reference": "848a4f6abbb3ac64c84691867d30d5f6f765889c"
+                "reference": "7a47985866dd13896a14883038bd1faf40702253"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/848a4f6abbb3ac64c84691867d30d5f6f765889c",
-                "reference": "848a4f6abbb3ac64c84691867d30d5f6f765889c",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/7a47985866dd13896a14883038bd1faf40702253",
+                "reference": "7a47985866dd13896a14883038bd1faf40702253",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.6 || ^7.0",
-                "symfony/console": "~3.3|~4.0",
-                "symfony/process": "~3.3|~4.0",
-                "symfony/yaml": "~3.3|~4.0"
+                "php": "^7.1",
+                "symfony/console": "~4.0",
+                "symfony/process": "~4.0",
+                "symfony/yaml": "~4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^5.7 || ^6.0"
+                "phpunit/phpunit": "^6.0"
             },
             "bin": [
                 "bin/homestead"
@@ -2887,7 +2887,7 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-            "time": "2018-05-26T14:25:04+00:00"
+            "time": "2019-02-06T01:05:54+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -4286,16 +4286,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.0.11",
+            "version": "v4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "048b1be5fb96e73ff1d065f5e7e23f84415ac907"
+                "reference": "d461670ee145092b7e2a56c1da7118f19cadadb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/048b1be5fb96e73ff1d065f5e7e23f84415ac907",
-                "reference": "048b1be5fb96e73ff1d065f5e7e23f84415ac907",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/d461670ee145092b7e2a56c1da7118f19cadadb0",
+                "reference": "d461670ee145092b7e2a56c1da7118f19cadadb0",
                 "shasum": ""
             },
             "require": {
@@ -4314,7 +4314,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.0-dev"
+                    "dev-master": "4.2-dev"
                 }
             },
             "autoload": {
@@ -4341,7 +4341,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2018-05-07T07:12:24+00:00"
+            "time": "2019-01-16T20:35:37+00:00"
         },
         {
             "name": "theseer/tokenizer",

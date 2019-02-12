@@ -19,7 +19,7 @@
     "filp/whoops": "~2.0",
     "fzaninotto/faker": "~1.4",
     "laravel/dusk": "^3.0",
-    "laravel/homestead": "^7.2",
+    "laravel/homestead": "^8.1",
     "mockery/mockery": "0.9.*",
     "nunomaduro/collision": "^2.0",
     "phpunit/phpunit": "~8.0"
