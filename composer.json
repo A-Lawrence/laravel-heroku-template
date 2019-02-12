@@ -22,7 +22,7 @@
     "laravel/homestead": "^7.2",
     "mockery/mockery": "0.9.*",
     "nunomaduro/collision": "^2.0",
-    "phpunit/phpunit": "~7.0"
+    "phpunit/phpunit": "~8.0"
   },
   "autoload": {
     "classmap": [
