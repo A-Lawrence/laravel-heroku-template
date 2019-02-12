@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "477c4880a10ab11b7388fd79db0b9022",
@@ -314,16 +314,16 @@
         },
         {
             "name": "fideloper/proxy",
-            "version": "4.0.0",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fideloper/TrustedProxy.git",
-                "reference": "cf8a0ca4b85659b9557e206c90110a6a4dba980a"
+                "reference": "177c79a2d1f9970f89ee2fb4c12b429af38b6dfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fideloper/TrustedProxy/zipball/cf8a0ca4b85659b9557e206c90110a6a4dba980a",
-                "reference": "cf8a0ca4b85659b9557e206c90110a6a4dba980a",
+                "url": "https://api.github.com/repos/fideloper/TrustedProxy/zipball/177c79a2d1f9970f89ee2fb4c12b429af38b6dfb",
+                "reference": "177c79a2d1f9970f89ee2fb4c12b429af38b6dfb",
                 "shasum": ""
             },
             "require": {
@@ -364,7 +364,7 @@
                 "proxy",
                 "trusted proxy"
             ],
-            "time": "2018-02-07T20:20:57+00:00"
+            "time": "2019-01-10T14:06:47+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -2356,12 +2356,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/A-Lawrence/laravel-developer-tools.git",
-                "reference": "d6dd5ff033eb84577917cfa69091f361cd6db7dd"
+                "reference": "81cbcd011191a498452ffaef1d4cef21556f00ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/A-Lawrence/laravel-developer-tools/zipball/d6dd5ff033eb84577917cfa69091f361cd6db7dd",
-                "reference": "d6dd5ff033eb84577917cfa69091f361cd6db7dd",
+                "url": "https://api.github.com/repos/A-Lawrence/laravel-developer-tools/zipball/81cbcd011191a498452ffaef1d4cef21556f00ab",
+                "reference": "81cbcd011191a498452ffaef1d4cef21556f00ab",
                 "shasum": ""
             },
             "require": {
@@ -2369,6 +2369,9 @@
                 "tightenco/collect": "^5.6"
             },
             "require-dev": {
+                "barryvdh/laravel-ide-helper": "^2.4",
+                "codedungeon/phpunit-result-printer": "^0.26.0",
+                "laracasts/generators": "^1.1",
                 "leanphp/phpspec-code-coverage": "^4.0",
                 "phpspec/phpspec": "^4.3"
             },
@@ -2408,7 +2411,7 @@
                 "laravel",
                 "lumen"
             ],
-            "time": "2018-05-26T15:03:00+00:00"
+            "time": "2019-02-06T06:08:51+00:00"
         },
         {
             "name": "doctrine/instantiator",
