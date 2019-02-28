@@ -2001,27 +2001,27 @@
         },
         {
             "name": "spatie/laravel-responsecache",
-            "version": "4.4.4",
+            "version": "4.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-responsecache.git",
-                "reference": "783c003f422dc20b73c0c83f7e12c338f7ece803"
+                "reference": "10044a6ce3b60161c8864b22b50887a494869c68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-responsecache/zipball/783c003f422dc20b73c0c83f7e12c338f7ece803",
-                "reference": "783c003f422dc20b73c0c83f7e12c338f7ece803",
+                "url": "https://api.github.com/repos/spatie/laravel-responsecache/zipball/10044a6ce3b60161c8864b22b50887a494869c68",
+                "reference": "10044a6ce3b60161c8864b22b50887a494869c68",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": "~5.5.0|~5.6.0|~5.7.0",
-                "nesbot/carbon": "~1.19",
+                "laravel/framework": "~5.5.0|~5.6.0|~5.7.0|~5.8.0",
+                "nesbot/carbon": "~1.19 || ^2.0",
                 "php": "^7.0"
             },
             "require-dev": {
                 "mockery/mockery": "^1.0",
-                "orchestra/testbench": "~3.5.0|~3.6.0|~3.7.0",
-                "phpunit/phpunit": "^6.2|^7.0"
+                "orchestra/testbench": "~3.5.0|~3.6.0|~3.7.0|~3.8.0",
+                "phpunit/phpunit": "^6.2|^7.0|^8.0"
             },
             "type": "library",
             "extra": {
@@ -2061,7 +2061,7 @@
                 "response",
                 "spatie"
             ],
-            "time": "2018-09-27T06:47:28+00:00"
+            "time": "2019-02-27T10:20:55+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
