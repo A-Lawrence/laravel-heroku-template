@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cfdc8917296587586c48bbc5c0bedfea",
+    "content-hash": "4024b2c9b4fd692f3d78b7c30e3a7d24",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -828,16 +828,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.14.1",
+            "version": "2.14.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "e68f869575bd703276be8d4264799cd3cce28107"
+                "reference": "a1f4f9abcde8241ce33bf5090896e9c16d0b4232"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/e68f869575bd703276be8d4264799cd3cce28107",
-                "reference": "e68f869575bd703276be8d4264799cd3cce28107",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/a1f4f9abcde8241ce33bf5090896e9c16d0b4232",
+                "reference": "a1f4f9abcde8241ce33bf5090896e9c16d0b4232",
                 "shasum": ""
             },
             "require": {
@@ -884,7 +884,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2019-02-27T13:59:59+00:00"
+            "time": "2019-02-28T09:07:12+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -1395,27 +1395,27 @@
         },
         {
             "name": "spatie/laravel-responsecache",
-            "version": "4.4.5",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-responsecache.git",
-                "reference": "10044a6ce3b60161c8864b22b50887a494869c68"
+                "reference": "141b67bce6390b31a56ac8a2208790d4e13556fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-responsecache/zipball/10044a6ce3b60161c8864b22b50887a494869c68",
-                "reference": "10044a6ce3b60161c8864b22b50887a494869c68",
+                "url": "https://api.github.com/repos/spatie/laravel-responsecache/zipball/141b67bce6390b31a56ac8a2208790d4e13556fc",
+                "reference": "141b67bce6390b31a56ac8a2208790d4e13556fc",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": "~5.5.0|~5.6.0|~5.7.0|~5.8.0",
+                "laravel/framework": "~5.8.0",
                 "nesbot/carbon": "~1.19 || ^2.0",
-                "php": "^7.0"
+                "php": "^7.2"
             },
             "require-dev": {
                 "mockery/mockery": "^1.0",
-                "orchestra/testbench": "~3.5.0|~3.6.0|~3.7.0|~3.8.0",
-                "phpunit/phpunit": "^6.2|^7.0|^8.0"
+                "orchestra/testbench": "~3.8.0",
+                "phpunit/phpunit": "^8.0"
             },
             "type": "library",
             "extra": {
@@ -1455,7 +1455,7 @@
                 "response",
                 "spatie"
             ],
-            "time": "2019-02-27T10:20:55+00:00"
+            "time": "2019-02-27T11:40:20+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2321,16 +2321,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v4.2.3",
+            "version": "v4.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "23fd7aac70d99a17a8e6473a41fec8fab3331050"
+                "reference": "748464177a77011f8f4cdd076773862ce4915f8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/23fd7aac70d99a17a8e6473a41fec8fab3331050",
-                "reference": "23fd7aac70d99a17a8e6473a41fec8fab3331050",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/748464177a77011f8f4cdd076773862ce4915f8f",
+                "reference": "748464177a77011f8f4cdd076773862ce4915f8f",
                 "shasum": ""
             },
             "require": {
@@ -2390,7 +2390,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2019-01-27T23:11:39+00:00"
+            "time": "2019-02-27T03:31:50+00:00"
         },
         {
             "name": "symfony/var-dumper",
