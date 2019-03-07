@@ -21,7 +21,7 @@
     "laravel/dusk": "^5.0",
     "laravel/homestead": "^8.1",
     "mockery/mockery": "1.2.*",
-    "nunomaduro/collision": "^2.0",
+    "nunomaduro/collision": "^3.0",
     "phpunit/phpunit": "~8.0"
   },
   "autoload": {
