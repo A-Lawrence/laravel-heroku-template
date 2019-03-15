@@ -1395,16 +1395,16 @@
         },
         {
             "name": "spatie/laravel-responsecache",
-            "version": "5.0.0",
+            "version": "5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-responsecache.git",
-                "reference": "141b67bce6390b31a56ac8a2208790d4e13556fc"
+                "reference": "b89b97641cf5d51da98ad506c781d7a8691df616"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-responsecache/zipball/141b67bce6390b31a56ac8a2208790d4e13556fc",
-                "reference": "141b67bce6390b31a56ac8a2208790d4e13556fc",
+                "url": "https://api.github.com/repos/spatie/laravel-responsecache/zipball/b89b97641cf5d51da98ad506c781d7a8691df616",
+                "reference": "b89b97641cf5d51da98ad506c781d7a8691df616",
                 "shasum": ""
             },
             "require": {
@@ -1455,7 +1455,7 @@
                 "response",
                 "spatie"
             ],
-            "time": "2019-02-27T11:40:20+00:00"
+            "time": "2019-03-15T18:30:54+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
