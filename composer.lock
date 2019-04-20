@@ -3102,23 +3102,23 @@
         },
         {
             "name": "laravel/homestead",
-            "version": "v8.2.0",
+            "version": "v8.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/homestead.git",
-                "reference": "68388101a1364019c1fa44ff427be43b5ffda90f"
+                "reference": "b2b3f19d1789ebdf518b649a864cd037af0d379a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/68388101a1364019c1fa44ff427be43b5ffda90f",
-                "reference": "68388101a1364019c1fa44ff427be43b5ffda90f",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/b2b3f19d1789ebdf518b649a864cd037af0d379a",
+                "reference": "b2b3f19d1789ebdf518b649a864cd037af0d379a",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1",
-                "symfony/console": "~4.0",
-                "symfony/process": "~4.0",
-                "symfony/yaml": "~4.0"
+                "symfony/console": "~3.0||~4.0",
+                "symfony/process": "~3.0||~4.0",
+                "symfony/yaml": "~3.0||~4.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.0"
@@ -3148,7 +3148,7 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-            "time": "2019-03-05T22:31:19+00:00"
+            "time": "2019-04-20T20:38:09+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -4549,16 +4549,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.2.4",
+            "version": "v4.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "761fa560a937fd7686e5274ff89dcfa87a5047df"
+                "reference": "6712daf03ee25b53abb14e7e8e0ede1a770efdb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/761fa560a937fd7686e5274ff89dcfa87a5047df",
-                "reference": "761fa560a937fd7686e5274ff89dcfa87a5047df",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/6712daf03ee25b53abb14e7e8e0ede1a770efdb1",
+                "reference": "6712daf03ee25b53abb14e7e8e0ede1a770efdb1",
                 "shasum": ""
             },
             "require": {
@@ -4604,7 +4604,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2019-02-23T15:17:42+00:00"
+            "time": "2019-03-30T15:58:42+00:00"
         },
         {
             "name": "theseer/tokenizer",
