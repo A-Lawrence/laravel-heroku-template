@@ -1526,7 +1526,7 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.2.7",
+            "version": "v4.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
@@ -2324,7 +2324,7 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.2.7",
+            "version": "v4.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
@@ -3102,16 +3102,16 @@
         },
         {
             "name": "laravel/homestead",
-            "version": "v8.3.2",
+            "version": "v8.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/homestead.git",
-                "reference": "d24813d86ece4bf3bcb95d7c00df188cac702db3"
+                "reference": "c1e194bac77a03374adb9f92be818d25fa16335a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/d24813d86ece4bf3bcb95d7c00df188cac702db3",
-                "reference": "d24813d86ece4bf3bcb95d7c00df188cac702db3",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/c1e194bac77a03374adb9f92be818d25fa16335a",
+                "reference": "c1e194bac77a03374adb9f92be818d25fa16335a",
                 "shasum": ""
             },
             "require": {
@@ -3148,7 +3148,7 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-            "time": "2019-04-24T16:09:37+00:00"
+            "time": "2019-05-01T14:45:57+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -4549,7 +4549,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.2.7",
+            "version": "v4.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
