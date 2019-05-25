@@ -3107,16 +3107,16 @@
         },
         {
             "name": "laravel/homestead",
-            "version": "v8.5.0",
+            "version": "v8.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/homestead.git",
-                "reference": "2a3f040a074e312b3d3d0ea9e42a1f1cca1ec20a"
+                "reference": "94d963b1216100766a575a907614a623470ae83d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/2a3f040a074e312b3d3d0ea9e42a1f1cca1ec20a",
-                "reference": "2a3f040a074e312b3d3d0ea9e42a1f1cca1ec20a",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/94d963b1216100766a575a907614a623470ae83d",
+                "reference": "94d963b1216100766a575a907614a623470ae83d",
                 "shasum": ""
             },
             "require": {
@@ -3153,7 +3153,7 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-            "time": "2019-05-24T18:52:59+00:00"
+            "time": "2019-05-25T20:44:48+00:00"
         },
         {
             "name": "mockery/mockery",
