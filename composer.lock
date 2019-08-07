@@ -842,16 +842,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.22.0",
+            "version": "2.22.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "1a0e48b5f656065ba3c265b058b25d36c2162a5e"
+                "reference": "738fbd8d80b2c5e158fda76c29c2de432fcc6f7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/1a0e48b5f656065ba3c265b058b25d36c2162a5e",
-                "reference": "1a0e48b5f656065ba3c265b058b25d36c2162a5e",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/738fbd8d80b2c5e158fda76c29c2de432fcc6f7e",
+                "reference": "738fbd8d80b2c5e158fda76c29c2de432fcc6f7e",
                 "shasum": ""
             },
             "require": {
@@ -905,7 +905,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2019-07-28T09:02:12+00:00"
+            "time": "2019-08-07T12:36:44+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -1416,27 +1416,27 @@
         },
         {
             "name": "spatie/laravel-responsecache",
-            "version": "6.1.0",
+            "version": "6.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-responsecache.git",
-                "reference": "d9c5a5e05d80094e192a8fd80d7f88c741502ca3"
+                "reference": "3c88a5d8c4367b8393f0945b220f4f1987b1990f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-responsecache/zipball/d9c5a5e05d80094e192a8fd80d7f88c741502ca3",
-                "reference": "d9c5a5e05d80094e192a8fd80d7f88c741502ca3",
+                "url": "https://api.github.com/repos/spatie/laravel-responsecache/zipball/3c88a5d8c4367b8393f0945b220f4f1987b1990f",
+                "reference": "3c88a5d8c4367b8393f0945b220f4f1987b1990f",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": "~5.8.0",
-                "nesbot/carbon": "^2.0",
+                "laravel/framework": "~5.7.0|~5.8.0",
+                "nesbot/carbon": "~1.19 || ^2.0",
                 "php": "^7.3"
             },
             "require-dev": {
                 "mockery/mockery": "^1.0",
-                "orchestra/testbench": "~3.8.0",
-                "phpunit/phpunit": "^8.0"
+                "orchestra/testbench": "~3.7.0|~3.8.0",
+                "phpunit/phpunit": "^7.0|^8.0"
             },
             "type": "library",
             "extra": {
@@ -1476,7 +1476,7 @@
                 "response",
                 "spatie"
             ],
-            "time": "2019-08-01T08:48:20+00:00"
+            "time": "2019-08-07T22:44:40+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
