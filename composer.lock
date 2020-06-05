@@ -4416,16 +4416,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.2.0",
+            "version": "9.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "156770a4069dba439b26fc16be82e2287d22240e"
+                "reference": "3b50c1ad9dd021062c76f678f59fa38b6bd09b15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/156770a4069dba439b26fc16be82e2287d22240e",
-                "reference": "156770a4069dba439b26fc16be82e2287d22240e",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3b50c1ad9dd021062c76f678f59fa38b6bd09b15",
+                "reference": "3b50c1ad9dd021062c76f678f59fa38b6bd09b15",
                 "shasum": ""
             },
             "require": {
@@ -4500,7 +4500,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2020-06-05T04:44:59+00:00"
+            "time": "2020-06-05T06:43:37+00:00"
         },
         {
             "name": "sebastian/code-unit",
