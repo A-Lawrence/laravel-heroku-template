@@ -915,16 +915,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.39.1",
+            "version": "2.40.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "7af467873250583cc967a59ee9df29fabab193c1"
+                "reference": "6c7646154181013ecd55e80c201b9fd873c6ee5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/7af467873250583cc967a59ee9df29fabab193c1",
-                "reference": "7af467873250583cc967a59ee9df29fabab193c1",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/6c7646154181013ecd55e80c201b9fd873c6ee5d",
+                "reference": "6c7646154181013ecd55e80c201b9fd873c6ee5d",
                 "shasum": ""
             },
             "require": {
@@ -1000,7 +1000,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-04T13:11:37+00:00"
+            "time": "2020-09-11T19:00:58+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -4122,16 +4122,16 @@
         },
         {
             "name": "laravel/dusk",
-            "version": "v6.6.0",
+            "version": "v6.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/dusk.git",
-                "reference": "be00c525f9bde15bcfec1afc4857ab26afa6b369"
+                "reference": "c64c3742e5f90a8464ffe4b108632257381d554c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/dusk/zipball/be00c525f9bde15bcfec1afc4857ab26afa6b369",
-                "reference": "be00c525f9bde15bcfec1afc4857ab26afa6b369",
+                "url": "https://api.github.com/repos/laravel/dusk/zipball/c64c3742e5f90a8464ffe4b108632257381d554c",
+                "reference": "c64c3742e5f90a8464ffe4b108632257381d554c",
                 "shasum": ""
             },
             "require": {
@@ -4186,7 +4186,7 @@
                 "testing",
                 "webdriver"
             ],
-            "time": "2020-09-08T16:09:25+00:00"
+            "time": "2020-09-22T15:41:02+00:00"
         },
         {
             "name": "laravel/homestead",
